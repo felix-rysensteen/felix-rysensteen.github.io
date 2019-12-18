@@ -1,0 +1,97 @@
+body {
+
+
+  background-image: url("cairosunset1.jpg");
+  background-attachment:fixed;
+  background-size:100% 100%;
+
+
+  }
+    h1{
+      font-family:helvetica;
+      color: white;
+      text-align:center;
+      font-size: 100px;
+      letter-spacing: 7px;
+    }
+
+
+    h3{
+      font-family:helvetica;
+      color: white;
+      font-size: 50px;
+      letter-spacing: 3px;
+      margin: 25px;
+    }
+
+
+
+  h4{
+      font-family:helvetica;
+      color:white;
+      font-size: 20px;
+      letter-spacing: 2px;
+      margin:25px;
+    }
+
+
+    p{
+      font-family:helvetica;
+      color: white;
+      line-height: 1.75;
+      margin: 25px;
+  }
+
+
+  li {
+    float: left;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+
+
+
+  li a {
+  display: block;
+  color: white;
+  text-align: center;
+    padding: 14px 5px;
+
+}
+
+li a:hover {
+  background-color: royalblue;
+  color: black;
+}
+
+.active {
+  background-color: white;
+}
+
+
+
+    a:link {
+      color: black;
+      font-family:helvetica;
+      font-size:18px;
+      background-color: transparent;
+      letter-spacing:2px;
+      text-decoration: none;
+      margin: 25px;
+  }
+
+  a:visited {
+    color: royalblue;
+    background-color: transparent;
+    text-decoration: none;
+
+}
